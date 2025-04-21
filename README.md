@@ -1,16 +1,18 @@
-# 🔥 RescueVision: Thermal-Based Human Detection & Tracking
+# 🔥 RescueVision: Thermal-Based Human Detection & 3D Tracking
 
-RescueVision is a Python-based project designed to aid **search and rescue operations** using thermal imaging data. It helps detect and track humans trapped in disaster scenarios using **thermal images or videos**, leveraging computer vision and Kalman filtering.
+RescueVision is a Python-based project designed to aid **search and rescue operations** using thermal imaging data. It helps detect and track humans trapped in disaster scenarios using **thermal images or videos**, leveraging computer vision and a 3D Kalman Filter for robust tracking.
 
 ---
 
 ## 📦 Features
 
-- ✅ Thermal image preprocessing & binary thresholding
-- 🎯 Object detection using contours
-- 🔁 Object tracking using a Kalman Filter
+- ✅ Thermal image preprocessing & adaptive thresholding
+- 🎯 Human detection using contour analysis
+- 🚀 3D object tracking using Kalman Filter
+- 📏 Distance estimation between tracked objects
 - 🖼 Works with both thermal images and videos
-- 🧱 Clean, modular structure for easy expansion and testing
+- 📊 Data association for multi-object tracking
+- 🧱 Clean, modular structure for easy expansion
 
 ---
 
